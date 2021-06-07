@@ -1,4 +1,4 @@
-const { Producto, Imagen } = require("../../services/db");
+const { Producto } = require("../../services/db");
 const { Op } = require('sequelize');
 
 //Obtenemos la busqueda por nombre

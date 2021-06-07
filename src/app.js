@@ -9,7 +9,7 @@ require("dotenv").config();
 const app=express();
 //configuración 
 app.use(express.static(__dirname+ '/public'));
-app.set("port",process.env.PORT || 30300);
+app.set("port",process.env.PORT || 30600);
 
 //midlewares 
 app.use(cors());
